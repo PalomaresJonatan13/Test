@@ -1,5 +1,24 @@
-Package: test
-Type: Package
-Title: Temperature Conversion Package for Demonstration
-Version: 0.0.1.0
+Package: Test
+Title: MultivarAnalysis
+Version: 0.0.0.9000
+Authors@R: 
+    person("Katalina", "Leyva", , , role = c("aut", "cre"))
+    person("Jonatan", "Palomares", , , role = c("aut", "cre"))
+Description: This package provides the user with the basic tools for doing a statistical
+  multivariate analysis, including functions for an initial descriptive analysis and 
+  functions for dimensionality reduction.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Imports: 
+        tidyverse,
+        paletteer,
+        dplyr,
+        psych,
+        corrplot,
+        polycor,
+        moments,
+        GGally,
+        WGCNA
